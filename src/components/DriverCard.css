@@ -1,0 +1,31 @@
+.driver--card__container {
+  padding: 20px;
+  width: 160px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.driver--card__container h4 {
+  color: rgb(14, 13, 13);
+}
+.driver--card__container p {
+  color: lightgray;
+}
+
+.driver--card__container img {
+  height: 120px;
+  object-fit: contain;
+}
+
+.driver--subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .driver--card__container {
+    width: 380px;
+  }
+}
